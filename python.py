@@ -20,11 +20,11 @@ def questionone():
     correctAnswers += 1
     #Add the point to their final score
   else:
-    print ("Incorrect")
+    print ("Incorrect")99
 
   #Loop until the user gets the answer correct
   while isValid is False:
-    print (questions[0])\
+    print (questions[0])
     #Access the question from the list
     response = input()
     #Save the answer inside the variable
